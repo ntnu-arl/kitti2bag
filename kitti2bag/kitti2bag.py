@@ -1,7 +1,9 @@
-#!env python
+#!env python3
 # -*- coding: utf-8 -*-
 
 import sys
+import numpy
+numpy.random.bit_generator = numpy.random.BitGenerator
 
 try:
     import pykitti
